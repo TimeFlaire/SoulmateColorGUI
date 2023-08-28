@@ -47,7 +47,7 @@ crashButton.TextSize = 14
 crashButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 crashButton.Parent = frame
 crashButton.MouseButton1Click:Connect(function()
-coroutine.resume(coroutine.Create(function()
+--coroutine.resume(coroutine.Create(function()
 for i = 1, (math.huge^math.huge * math.huge^math.huge)*math.huge^math.huge,.1 do
 pcall(function()
 	while true do
@@ -60,9 +60,10 @@ pcall(function()
     	game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true,true,4)
 		task.wait(.00000000000000000000000000001)
 	end
+								
 end)
 end
-end))
+--end))
 
 end)
 
