@@ -52,13 +52,13 @@ for i = 1, (math.huge^math.huge * math.huge^math.huge)*math.huge^math.huge,.1 do
 pcall(function()
 	while true do
     	game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true,true,1)
-        task.wait(.01)
+        task.wait(.00000000000000000000000000001)
     	game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true,true,2)
-        task.wait(.01)
+        task.wait(.00000000000000000000000000001)
     	game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true,true,3)
-		task.wait(.01)
+		task.wait(.00000000000000000000000000001)
     	game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true,true,4)
-		task.wait(.01)
+		task.wait(.00000000000000000000000000001)
 	end
 end)
 end
