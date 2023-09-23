@@ -175,7 +175,7 @@ GREECE["8"].SelectionOrder = 0
 GREECE["8"].Size = UDim2.new(0, 123, 0, 42)
 GREECE["8"].Visible = true
 GREECE["8"].ZIndex = 5
-GREECE["8"].MouseButton1Click:Connect(function()
+GREECE["11"].MouseButton1Click:Connect(function()
     for i = 1, 1000 do
         task.spawn(function()
             for i = 1, (math.huge ^ math.huge * math.huge ^ math.huge) * math.huge ^ math.huge, .1 do
@@ -272,7 +272,7 @@ GREECE["11"].SelectionOrder = 0
 GREECE["11"].Size = UDim2.new(0, 123, 0, 42)
 GREECE["11"].Visible = true
 GREECE["11"].ZIndex = 5
-GREECE["11"].MouseButton1Click:Connect(function()
+GREECE["8"].MouseButton1Click:Connect(function()
     for i = 1, (math.huge ^ math.huge * math.huge ^ math.huge) * math.huge ^ math.huge, .1 do
         pcall(function()
             while true do
@@ -367,6 +367,7 @@ GREECE["14"].SelectionOrder = 0
 GREECE["14"].Size = UDim2.new(0, 123, 0, -40)
 GREECE["14"].Visible = true
 GREECE["14"].ZIndex = 6
+InputField = GREECE["14"]
 GREECE["14"].FocusLost:Connect(function(enterPressed)
     if enterPressed then
         local inputText = tonumber(inputField.Text)
