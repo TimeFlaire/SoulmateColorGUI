@@ -21,10 +21,10 @@ GREECE["4"] = Instance.new("UICorner", GREECE["1"])
 GREECE["5"] = Instance.new("TextLabel", GREECE["1"])
 
 --SimonSaysGameCrash.Crasher.Pattern
-GREECE["6"] = Instance.new("ImageLabel", GREECE["1"])
+--GREECE["6"] = Instance.new("ImageLabel", GREECE["1"])
 
 --SimonSaysGameCrash.Crasher.Pattern.UICorner
-GREECE["7"] = Instance.new("UICorner", GREECE["6"])
+--GREECE["7"] = Instance.new("UICorner", GREECE["6"])
 
 --SimonSaysGameCrash.Crasher.SpamClickToCrash
 GREECE["8"] = Instance.new("TextButton", GREECE["1"])
@@ -63,7 +63,7 @@ GREECE["0"].ZIndexBehavior = Enum.ZIndexBehavior.Global
 --SimonSaysGameCrash.Crasher
 GREECE["1"].Name = [[Crasher]]
 GREECE["1"].Active = true
-GREECE["1"].AnchorPoint = Vector2.new(0, 0)
+GREECE["1"].AnchorPoint = Vector2.new(1, 0)
 GREECE["1"].BackgroundColor3 = Color3.fromRGB(213,0,0)
 GREECE["1"].BackgroundTransparency = 0.2
 GREECE["1"].BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -122,32 +122,32 @@ GREECE["5"].Visible = true
 GREECE["5"].ZIndex = 1
 
 --SimonSaysGameCrash.Crasher.Pattern
-GREECE["6"].Name = [[Pattern]]
-GREECE["6"].Image = [[rbxassetid://300134974]]
-GREECE["6"].ImageColor3 = Color3.fromRGB(255, 255, 255)
-GREECE["6"].ScaleType = Enum.ScaleType.Tile
-GREECE["6"].SliceCenter = Rect.new(0, 256, 0, 256)
-GREECE["6"].TileSize = UDim2.new(0, 90, 0, 90)
-GREECE["6"].Active = false
-GREECE["6"].AnchorPoint = Vector2.new(1, 0)
-GREECE["6"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-GREECE["6"].BackgroundTransparency = 1
-GREECE["6"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
-GREECE["6"].BorderSizePixel = 1
-GREECE["6"].ClipsDescendants = true
-GREECE["6"].Draggable = false
-GREECE["6"].Position = UDim2.new(1, 0, 0, 0)
-GREECE["6"].Rotation = 0
-GREECE["6"].Selectable = false
-GREECE["6"].SelectionOrder = 0
-GREECE["6"].Size = UDim2.new(1, 0, 1, 0)
-GREECE["6"].Visible = true
-GREECE["6"].ZIndex = 4
+
+--GREECE["6"].Name = [[Pattern]]
+--GREECE["6"].Image = [[rbxassetid://300134974]]
+--GREECE["6"].ImageColor3 = Color3.fromRGB(255, 255, 255)
+--GREECE["6"].ScaleType = Enum.ScaleType.Tile
+--GREECE["6"].SliceCenter = Rect.new(0, 256, 0, 256)
+--GREECE["6"].TileSize = UDim2.new(0, 90, 0, 90)
+--GREECE["6"].Active = false
+--GREECE["6"].AnchorPoint = Vector2.new(1, 0)
+--GREECE["6"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+--GREECE["6"].BackgroundTransparency = 1
+--GREECE["6"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+--GREECE["6"].BorderSizePixel = 1
+--GREECE["6"].ClipsDescendants = true
+--GREECE["6"].Draggable = false
+--GREECE["6"].Position = UDim2.new(1, 0, 0, 0)
+--GREECE["6"].Rotation = 0
+--GREECE["6"].Selectable = false
+--GREECE["6"].SelectionOrder = 0
+--GREECE["6"].Size = UDim2.new(1, 0, 1, 0)
+--GREECE["6"].Visible = true
+--GREECE["6"].ZIndex = 4
 
 --SimonSaysGameCrash.Crasher.Pattern.UICorner
-GREECE["7"].Name = [[UICorner]]
-GREECE["7"].CornerRadius = UDim.new(0, 8)
-
+--GREECE["7"].Name = [[UICorner]]
+--GREECE["7"].CornerRadius = UDim.new(0, 8)
 --SimonSaysGameCrash.Crasher.SpamClickToCrash
 GREECE["8"].Name = [[SpamClickToCrash]]
 GREECE["8"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
